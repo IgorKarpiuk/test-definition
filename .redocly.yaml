@@ -1,0 +1,7 @@
+apis:
+  main@v1:
+    root: ./pets.yaml
+    decorators: {}
+    extends: []
+extends:
+  - recommended

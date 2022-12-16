@@ -1,0 +1,44 @@
+{
+  "name": "@redocly/cli",
+  "version": "1.0.0-beta.117-notify",
+  "description": "",
+  "license": "MIT",
+  "bin": {
+    "openapi": "bin/cli.js",
+    "redocly": "bin/cli.js"
+  },
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "engineStrict": true,
+  "scripts": {
+    "compile": "tsc",
+    "copy-assets": "cp src/commands/preview-docs/preview-server/default.hbs lib/commands/preview-docs/preview-server/default.hbs && cp src/commands/preview-docs/preview-server/hot.js lib/commands/preview-docs/preview-server/hot.js && cp src/commands/preview-docs/preview-server/oauth2-redirect.html lib/commands/preview-docs/preview-server/oauth2-redirect.html && cp src/commands/build-docs/template.hbs lib/commands/build-docs/template.hbs",
+    "prepublishOnly": "npm run copy-assets"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/IgorKarpiuk/test-definition"
+  },
+  "homepage": "https://github.com/IgorKarpiuk/test-definition",
+  "keywords": [
+    "linter",
+    "OpenAPI",
+    "Swagger",
+    "OpenAPI linter",
+    "Swagger linter",
+    "oas"
+  ],
+  "dependencies": {
+    "@redocly/openapi-core": "1.0.0-beta.117-notify",
+  },
+  "devDependencies": {
+    "@types/configstore": "^5.0.1",
+    "@types/react": "^17.0.8",
+    "@types/react-dom": "^17.0.5",
+    "@types/styled-components": "^5.1.1",
+    "@types/update-notifier-webpack": "npm:@types/update-notifier@5.0.1",
+    "@types/yargs": "16.0.2",
+    "typescript": "^4.0.3"
+  }
+}
