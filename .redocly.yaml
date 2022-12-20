@@ -5,3 +5,4 @@ apis:
     extends: []
 extends:
   - recommended
+  - test1
