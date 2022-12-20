@@ -5,4 +5,5 @@ apis:
     extends: []
 extends:
   - recommended
-  - test1.yaml
+plugins:
+- test1.js
