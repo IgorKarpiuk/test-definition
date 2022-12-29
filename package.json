@@ -1,6 +1,6 @@
 {
   "name": "@redocly/cli",
-  "version": "1.0.0-beta.117",
+  "version": "1.0.0-beta.118",
   "description": "",
   "license": "MIT",
   "bin": {
@@ -30,7 +30,7 @@
     "oas"
   ],
   "dependencies": {
-    "@redocly/openapi-core": "1.0.0-beta.117"
+    "@redocly/openapi-core": "1.0.0-beta.118"
   },
   "devDependencies": {
     "@types/configstore": "^5.0.1",
