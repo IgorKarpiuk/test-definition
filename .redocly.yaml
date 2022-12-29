@@ -5,5 +5,3 @@ apis:
     extends: []
 extends:
   - recommended
-plugins:
-- test1.js
