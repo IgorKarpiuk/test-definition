@@ -30,7 +30,7 @@
     "oas"
   ],
   "dependencies": {
-    "@redocly/openapi-core": "1.0.0-beta.118"
+    "@redocly/openapi-core": "1.0.0-beta.125"
   },
   "devDependencies": {
     "@types/configstore": "^5.0.1",
