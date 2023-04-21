@@ -1,6 +1,6 @@
 apis:
   main@v1:
-    root: ./pets.yaml
+    root: ./test
     decorators: {}
     extends: []
 extends:
